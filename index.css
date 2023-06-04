@@ -7,7 +7,7 @@
 
 body {
     text-align: center;
-    font-family: 'Happy Monkey', cursive;
+    font-family: Tahoma;
     
     text-align: center;
   
@@ -27,7 +27,10 @@ body {
     margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
-    font-size: xx-large;
+    font-size: 50px;
+    font-family: 'Ananda', sans-serif;
+    font-family: 'Ananda Black', sans-serif;
+
 } 
 
 
@@ -116,7 +119,7 @@ h1, h2, h3, h4, p {
 }
 
 #gift-img-group:hover {
-    background-image: url("Images/group.jpeg");
+    background-image: url("Images/group2.jpeg");
 }
 #gift-img-group2:hover {
     background-image: url("Images/group2.jpg");

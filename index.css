@@ -23,21 +23,53 @@ body {
 
 
 .birthday-header {
-    margin-top: 30px;
-    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
+    font-size: xx-large;
 } 
 
 
-.gift-img {
+.gift-img1, .gift-img2, .gift-img3, .gift-img4, .gift-img5, .gift-img6, .gift-img7, .gift-img8 {
     margin: 20px auto;
-    max-width: 200px;
-    height: 200px;
+    max-width: 400px;
+    height: 400px;
     border: 6px solid white;
     border-radius: 10px;
-    background-image: url("https://wallpaperaccess.com/full/783046.jpg");
     background-size: cover;
+    flex: 1;
+}
+
+.gift-img1 {
+    background-image: url("https://pethelpful.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:eco%2Cw_1200/MTkzMTcyMTUwNzE3MjYxNDcx/funny-pug-video-.jpg");
+}
+.gift-img2 {
+    background-image: url("https://i.pinimg.com/736x/6f/ff/aa/6fffaacb10e861873a88ce4956262049--doug-the-pug-thug-life.jpg"
+    );
+}
+.gift-img3 {
+    background-image: url("https://i.ytimg.com/vi/DBsW9bQhWy8/maxresdefault.jpg");
+}
+.gift-img4 {
+    background-image: url("https://www.sheknows.com/wp-content/uploads/2018/08/dktahzkmhhyqmrpkyds3.jpeg");
+}
+.gift-img5 {
+    background-image: url("https://i.pinimg.com/originals/de/71/bb/de71bb8a57ff473cc58ebc6af58c4858.jpg");
+}
+.gift-img6 {
+    background-image: url("https://img.freepik.com/premium-photo/pug-breed-dog-with-adorable-face-trying-catch-food-dog-looking-food-dog-eating_374109-2704.jpg?");
+}
+.gift-img7 {
+    background-image: url("https://i.ytimg.com/vi/aPr0Q7U7fYQ/hqdefault.jpg");
+}
+.gift-img8 {
+    background-image: url("https://i.pinimg.com/736x/76/c1/b4/76c1b4b85ef3f91808dbf0f1dfa02d7b.jpg");
+}
+
+
+.gift-img:first-child {
+    margin-right: 10px;
 }
 
 
@@ -45,8 +77,10 @@ body {
 .gift-container {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    /* flex-wrap: nowrap; */
 }
+
+
 
 h1, h2, h3, h4, p {
     text-shadow: 0 0 10px black;
@@ -55,6 +89,7 @@ h1, h2, h3, h4, p {
 .gift-section {
     margin-top: 50px;
     padding: 10px;
+    font-size: larger;
     
 }
 
@@ -69,16 +104,28 @@ h1, h2, h3, h4, p {
 #gift-img-poses:hover {
     background-image: url("Images/weird_pose.jpeg");
 }
+#gift-img-poses2:hover {
+    background-image: url("Images/weird_pose2.jpg")
+}
 
 #gift-img-food:hover {
     background-image: url("Images/food.jpeg");
+}
+#gift-img-food2:hover {
+    background-image: url("Images/food2.jpg");
 }
 
 #gift-img-group:hover {
     background-image: url("Images/group.jpeg");
 }
+#gift-img-group2:hover {
+    background-image: url("Images/group2.jpg");
+}
 
 #gift-img-final:hover {
     background-image: url("Images/final.jpeg");
+}
+#gift-img-final2:hover {
+    background-image: url("Images/final2.jpg");
 }
 
